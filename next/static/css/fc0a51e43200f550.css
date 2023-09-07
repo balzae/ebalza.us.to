@@ -445,13 +445,22 @@ a {
     outline-offset: 2px
 }
 
+.md\:min-w-full {
+    min-width: 100%
+}
+
+.md\:text-base {
+    font-size: .59rem;
+    line-height: 1.5rem
+}
+
 @media (min-width:768px) {
     .md\:min-w-full {
         min-width: 100%
     }
 
     .md\:text-base {
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: 1.5rem
     }
 }
